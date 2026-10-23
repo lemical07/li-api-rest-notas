@@ -1,0 +1,27 @@
+{
+  "name": "li-api-rest-notas",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/lemical07/li-api-rest-notas#readme",
+  "bugs": {
+    "url": "https://github.com/lemical07/li-api-rest-notas/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lemical07/li-api-rest-notas.git"
+  },
+  "license": "ISC",
+  "author": "lemical",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "express": "^5.3.0",
+    "express-validator": "^7.3.2",
+    "mysql2": "^3.24.6"
+  }
+}
